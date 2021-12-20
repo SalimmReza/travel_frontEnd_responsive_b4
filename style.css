@@ -33,14 +33,14 @@
     padding: 8px 0;
     outline: none;
     border: 2px solid white;
-    border-radius: 50px;
+    border-radius: 10px;
     background: transparent;
     color: white;
     float: right;
 }
 
 .header h1{
-    padding-top: 200px;
+    padding-top: 260px;
     padding-bottom: 0;
     font-size: 55px;
 
@@ -51,10 +51,9 @@
 }
 
 .input-group{
-
     width: 90%;
     max-width: 500px;
-    border-radius: 30px;
+    border-radius: 10px;
     background-color: white;
     margin: auto;
     padding: 2px;
@@ -63,7 +62,7 @@
 
 .form-control{
  border: 0 !important;
- border-radius: 30px !important;
+ border-radius: 10px !important;
  margin: 2px;
  box-shadow: none !important;
 }
@@ -74,6 +73,74 @@
     border: 0 !important;
     color: white !important;
    padding: 0 25px !important ;
-    border-radius: 30px !important;
+    border-radius: 10px !important;
     box-shadow: none !important;
 }
+
+/* <!-- -------------------------features-------------------------- --> */
+
+
+.features{
+
+    padding: 100px 0;
+
+}
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.feature-img img{
+    width: 100%;
+
+
+}
+.price{
+    width: 50px;
+    height: 50px;
+    background: rgb(247, 58, 0);
+     color: rgb(255, 255, 255);
+    font-weight: 600;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: black;
+    position: absolute;
+    left: 20px;
+    bottom: -25px;
+}
+
+.feature-img{
+    position: relative;
+
+}
+
+.rating{
+    padding: 3px;
+    float: right;
+    background: rgb(255, 255, 255);
+    bottom: -1px;
+    right: 0;
+    position: absolute;
+}
+
+.features .fas{
+    font-size: 15px;
+    color: rgb(255, 41, 4); 
+}
+
+.feature-details{
+    padding: 20px;
+    text-align: justify;
+}
+
+.feature-details h4{
+    margin-top: 15px;
+    font-weight: 600;
+    
+}
+
+.feature-box{
+    box-shadow:  0 0 10px 1px orange;
+    margin-bottom: 30px;
+}
+
