@@ -83,6 +83,7 @@
 .features{
 
     padding: 100px 0;
+    
 
 }
 h1{
@@ -143,4 +144,85 @@ h1{
     box-shadow:  0 0 10px 1px orange;
     margin-bottom: 30px;
 }
+
+
+/* <!-- -------------------------features-------------------------- --> */
+
+.gallery{
+    padding: 100px 0;
+    background:rgb(233, 230, 230)
+
+}
+
+
+.gallery-box img {
+
+    width: 100%;
+border-radius: 10px;
+cursor: pointer;
+transition: 1s;
+
+}
+
+
+.gallery-box img:hover{
+    transform: scale(1.1);
+
+
+}
+
+.gallery-box h4{
+
+    display: block;
+    font-size: 20px;
+    margin-top: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    text-shadow: -2px 2px 2px rgb(5, 5, 5);
+    transform: translate(-50% , -50%);
+}
+
+
+.gallery-box{
+
+    position: relative;
+    margin-bottom: 30px;
+}
+
+
+/* <!-- -------------------------banner-------------------------- --> */
+
+ .banner{
+    height: 80vh;
+     background-image: url(images/b2.jpg); 
+    
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 15%;
+
+} 
+.banner-highlights{
+padding:70px 0 ;
+background: rgba(0,0,0,0.7);
+text-align: center;
+color: white;
+}
+
+
+.booking-btn{
+    margin-top: 10px;
+    width: 100px;
+    padding: 8px 0;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    
+}
+
+
 
